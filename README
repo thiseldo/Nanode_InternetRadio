@@ -1,0 +1,13 @@
+Nanode and VS1053B MP3 Shield Internet radio player
+The example uses DHCP to determine the local IP address, gateway, and DNS server.
+
+The LCD display used is a I2C connected 20x4 display.
+Details available at http://john.crouchley.com/blog/archives/612
+
+Tuning is achieved by connecting a 100k (could be 10k) potentiometer between +5v,
+GND and A0. This is selects one of 8 pre-defined stations.
+
+Written By and (c) Andrew D Lindsay, Sep 2011
+http://blog.thiseldo.co.uk
+Feel free to use this code, modify and redistribute.
+
